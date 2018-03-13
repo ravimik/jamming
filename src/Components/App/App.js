@@ -9,7 +9,13 @@ class App extends React.Component {
       super(props);
 
       this.state = {
-        searchResults: [{name: 'Tiny Dancer', artist: 'Elton John', album: 'Madman across the Water'}]
+        searchResults: [
+        {
+          name: 'Tiny Dancer',
+          artist: 'Elton John',
+          album: 'Madman across the Water',
+          id: 8723,
+        }]
         
       };
 
